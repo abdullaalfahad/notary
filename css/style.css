@@ -1,0 +1,392 @@
+/*Common Start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+/*Common End*/
+/*Header Start*/
+header{
+	padding: 20px 0;
+	/*border: 1px solid red;*/
+}
+.container{
+	margin: 0 auto;
+	width: 76%;
+	overflow: hidden;
+}
+.logo{
+	width: 21%;
+	/*border: 1px solid;*/
+	float: left;
+}
+.logo a{
+	display: block;
+}
+.logo a img{
+	width: 100%;
+}
+.menu {
+	margin-top: 3px;
+	width: 77%;
+	/*border: 1px solid;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	text-decoration: none;
+	padding: 0 15px;
+	display: block;
+}
+.menu ul li a:hover{
+	color: #C0213D;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+/*Header End*/
+/*Banner Start*/
+.banner{
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.banner_content{
+	margin: 125px 0;
+	width: 50%;
+}
+.banner_content h1{
+	margin: 0px 0 30px;
+	font-family: sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 4.5rem;
+    text-transform: capitalize;
+}
+.banner_content .b_p1{
+	text-transform: capitalize;
+}
+.banner_content p{
+	margin: 0 0 10px;
+	font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
+.banner_content .b_btn{
+	margin: 30px 0 0;
+	width: 240px;
+	height: 45px;
+	background-color: #C0213D;
+	border: none;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.banner_content .b_btn:hover{
+	color: #C0213D;
+	background-color: white;
+}
+/*Banner End*/
+/*How It Works Start*/
+.works{
+	padding: 100px 0;
+}
+.c_top{
+	margin: 0 auto;
+	width: 65%;
+	text-align: center;
+}
+.c_h1{
+	margin: 0 0 15px;
+	font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0C0C0C;
+    text-transform: uppercase;
+}
+.c_p{
+	margin: 0;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B8B8B;
+    line-height: 20px;
+}
+.w_bottom{
+	margin: 35px 0 0;
+	overflow: hidden;
+}
+.single{
+	margin: 0 4%;
+    padding: 35px 1.16% 0;
+    width: 23%;
+    float: left;
+    text-align: center;
+}
+.w_img{
+	margin: 0 auto;
+	width: 50%;
+}
+.w_img img{
+	width: 100%;
+}
+.single p{
+	margin: 20px 0;
+	font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #0C0C0C;
+}
+/*How It Works End*/
+/*Process Start*/
+.process{
+	padding: 100px 0;
+	background-color: #FAFAFA;
+}
+.p_left{
+	width: 55%;
+	float: left;
+}
+.p_h1{
+	margin: 10px 0 15px;
+	font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0C0C0C;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+.p_p{
+	margin: 0;
+    width: 90%;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B8B8B;
+    line-height: 20px;
+}
+.p_btn{
+    margin: 50px 0 12px;
+	width: 145px;
+	height: 40px;
+	background-color: #C0213D;
+	border: none;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.p_right{
+	width: 42%;
+	float: right;
+}
+.p_right img{
+	width: 100%;
+}
+/*Process End*/
+/*Features Start*/
+.features{
+	padding: 100px 0 95px;
+}
+.cardline1{
+	overflow: hidden;
+	padding: 80px 0 10px;
+}
+.card{
+	margin: 0 1.5%;
+    padding: 4% 2.5% 3.5%;	
+    width: 25%;
+	height: 200px;
+	float: left;
+	text-align: center;
+	border: 1px solid #F9F9F9;
+	box-shadow: 0px 0px 1px #8B8B8B; 
+}
+.card:hover{
+	box-shadow: 0 0 15px #8B8B8B;
+}
+.c_img{
+	width: 25%;
+	margin: 0 auto;
+}
+.c_img img{
+	width: 100%;
+}
+.card_h3{
+	margin: 25px 0 10px;
+	font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #0C0C0C;
+}
+.card_p{
+	margin: 0 6%;
+	font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8B8B8B;
+    line-height: 20px;
+}
+.cardline2{
+	overflow: hidden;
+	padding: 15px 0 80px;
+}
+.card_btn{
+	margin: 0 auto;
+	width: 200px;
+}
+.card_btn button{
+	margin: 0 0 10px;
+	width: 100%;
+	height: 40px;
+	background-color: white;
+	border: 1px solid #F9F9F9;
+	box-shadow: -1px 1px 4px #8B8B8B;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 550;
+    color: #C0213D;
+    text-transform: uppercase;
+}
+/*Features End*/
+/*Footer Start*/
+footer{}
+.f_top{
+	padding: 100px 0;
+	background-color: black;
+	overflow: hidden;
+}
+.contact_us{
+	margin: 0 15% 0 3.2%;
+	width: 23%;
+	float: left;
+}
+.c_h3{
+	margin: 0 0 20px;
+	font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #C0213D;
+}
+.contact_us p{
+	margin: 10px 0;
+	font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8B8B8B;
+}
+.contact_us p:nth-child(even){
+	margin: 0;
+}
+.social_media{
+	margin: 30px 0 0;
+}
+.s_btn{
+	width: 32px;
+    height: 30px;
+	font-size: 15px;
+	color: 222327;
+	background-color: #535D69;
+	border: none;
+	border-radius: 3px;
+}
+.s_btn:hover{
+	color: white;
+	background-color: #C0213D; 
+}
+.useful_link{
+	margin: 0 10% 0 0;
+	width: 13%;
+	float: left;
+}
+.useful_link ul{
+	padding: 0;
+}
+.useful_link ul li{
+	margin: 5px 0;
+	list-style-type: none;
+}
+.useful_link ul li a{
+	font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8B8B8B;
+	text-decoration: none;
+}
+.useful_link ul li a:hover{
+	color: #C0213D;
+}
+.our_newsletter{
+	margin-right: 3.2%;
+	width: 32%;
+	float: left;
+}
+.our_newsletter p{
+	width: 90%;
+	margin: 0;
+	font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #8B8B8B;
+}
+.input_button{
+	margin: 40px 0 0;
+}
+.email_input{
+	margin: 0;
+	width: 45%;
+	padding: 11px 5px;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B8B8B;
+    background-color: transparent;
+    border: 1px solid #8B8B8B;
+    box-sizing: border-box;
+}
+.subs_btn{
+	margin-left: -5px;
+	width: 49%;
+	padding: 12px 5px;
+	font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    background-color: #C0213D;
+    border: none;
+    transition: 0.3s;
+}
+.subs_btn:hover{
+	color: #C0213D;
+	background-color: white;
+}
+.f_bottom{
+	padding: 15px 0;
+	background-color: #535D69;
+	text-align: center;
+}
+.f_bottom p{
+	font-family: sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	color: white;
+}
+/*Footer End*/
